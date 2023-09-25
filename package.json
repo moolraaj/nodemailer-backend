@@ -1,0 +1,20 @@
+{
+  "name": "node-mysqli-backend",
+  "version": "1.0.0",
+  "description": "this is node mysqli tut",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raaj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.1"
+  }
+}
